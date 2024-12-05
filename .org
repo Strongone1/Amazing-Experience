@@ -1,0 +1,23 @@
+>>> def print_lyrics():
+... print "Savvy Coders is such an amazing space full of integrity and grace."
+... print "If I could I would stay and learn every day all day, the savvy way."
+...
+>>> print print_lyrics
+<function print_lyrics at 0x7e99e9c>
+>>> type(print_lyrics)
+<type 'function'>
+...
+>>> print_lyrics()
+Savvy Coders is such an amazing space full of integrity and grace.
+If I could I would stay and learn every day all day, the savvy way.
+...
+  def repeat_lyrics():
+      print_lyrics()
+      print_lyrics()
+...
+>>> repeat_lyrics()
+Savvy Coders is such an amazing space full of integrity and grace.
+If I could I would stay and learn every day all day, the savvy way.
+Savvy Coders is such an amazing space full of integrity and grace.
+If I could I would stay and learn every day all day, the savvy way.
+...
